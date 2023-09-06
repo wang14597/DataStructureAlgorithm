@@ -3,11 +3,11 @@ package org.wl;
 /*
 递归二分查找
  */
-public class Rank {
+public class _001_BinarySearch {
 
     public static void main(String[] args) {
         int[] numbers = {1,2,3,4,5,6,7};
-        System.out.println(Rank.rank(70,numbers));
+        System.out.println(_001_BinarySearch.rank(70,numbers));
     }
 
     private static int rank(int key, int[] numbers) {
