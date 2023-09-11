@@ -1,9 +1,11 @@
 package org.wl;
 
+import java.util.Iterator;
+
 /*
 泛型定容栈，在_005的基础上增加了扩容能力
 */
-public class _006_FixedCapacityStackEnhance<Item> {
+public class _006_FixedCapacityStackEnhance<Item> implements Iterable<Item>{
 
     private Item[] a; // stack entries
     private int N = 0; // size
@@ -46,6 +48,29 @@ public class _006_FixedCapacityStackEnhance<Item> {
         a = temp;
     }
 
+    public Iterator<Item> iterator() {
+        return new ReverseArrayIterator();
+    }
+
+    private class ReverseArrayIterator implements Iterator<Item> {
+
+        private int i = N;  // 非引用类型，N与i独立
+
+        @Override
+        public boolean hasNext() {
+            return i > 0;
+        }
+
+        @Override
+        public Item next() {
+            return a[--i];
+        }
+
+        @Override
+        public void remove() {
+        }
+    }
+
     public static void main(String[] args) {
         _006_FixedCapacityStackEnhance<Integer> s = new _006_FixedCapacityStackEnhance<>(10);
         s.push(1);
@@ -55,6 +80,19 @@ public class _006_FixedCapacityStackEnhance<Item> {
         System.out.println(s.pop());
         System.out.println(s.isEmpty());
         System.out.println(s.size());
+        System.out.println("--------------");
+
+        s.push(1);
+        s.push(2);
+        s.push(2);
+        s.push(2);
+        s.push(2);
+        s.push(2);
+
+        for (Integer i : s) {
+            System.out.println(i);
+        }
+
     }
 
 }
