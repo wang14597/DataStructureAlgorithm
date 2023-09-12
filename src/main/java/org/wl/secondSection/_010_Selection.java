@@ -9,7 +9,7 @@ import org.wl.secondSection.sortTemplate.Example;
     再次，在剩下的元素中 找到最小的元素，将它与数组的第二个元素交换位置。如此往复，直到将整个数组排序。
     这种方法 叫做选择排序，因为它在不断地选择剩余元素之中的最小者。
 */
-public class _010_Selection extends Example {
+public class _010_Selection {
 
     public static void sort(Comparable[] a) {
         int N = a.length;
@@ -17,18 +17,18 @@ public class _010_Selection extends Example {
         for (int i = 0; i < N; i++) {
             int min = i;
             for (int j = i + 1; j < N; j++) {
-                if (less(a[j], a[min])) {
+                if (Example.less(a[j], a[min])) {
                     min = j;
                 }
             }
-            exec(a, i, min);
+            Example.exec(a, i, min);
         }
     }
 
     public static void main(String[] args) {
         String[] a = new String[]{"b","s","d","a","j"};
         sort(a);
-        assert isSorted(a);
-        show(a);
+        assert Example.isSorted(a);
+        Example.show(a);
     }
 }

@@ -2,9 +2,6 @@ package org.wl.secondSection.sortTemplate;
 
 /*排序模版*/
 public class Example {
-    public static void sort(Comparable[] a) {
-
-    }
 
     public static boolean less(Comparable v, Comparable w) {
         return v.compareTo(w) < 0;
