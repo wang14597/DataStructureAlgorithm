@@ -1,4 +1,4 @@
-package org.wl.z_fourthSection;
+package org.wl.DataStructureAlgorithm.z_fourthSection;
 
 public interface Graph {
 

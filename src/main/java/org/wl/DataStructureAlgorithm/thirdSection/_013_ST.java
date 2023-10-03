@@ -1,4 +1,4 @@
-package org.wl.thirdSection;
+package org.wl.DataStructureAlgorithm.thirdSection;
 
 /*符号表（字典）*/
 public class _013_ST<Key extends Comparable<Key>, Value> {

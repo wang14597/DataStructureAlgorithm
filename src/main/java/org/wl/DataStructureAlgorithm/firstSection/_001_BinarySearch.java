@@ -1,4 +1,4 @@
-package org.wl.firstSection;
+package org.wl.DataStructureAlgorithm.firstSection;
 
 /*
 递归二分查找

@@ -1,6 +1,6 @@
-package org.wl.secondSection;
+package org.wl.DataStructureAlgorithm.secondSection;
 
-import org.wl.secondSection.sortTemplate.Example;
+import org.wl.DataStructureAlgorithm.secondSection.sortTemplate.Example;
 
 /*
 * 通常人们整理桥牌的方法是一张一张的来，将每一张牌插入到其他已经有序的牌中的适当位置。

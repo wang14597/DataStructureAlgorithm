@@ -1,7 +1,7 @@
-package org.wl.secondSection;
+package org.wl.DataStructureAlgorithm.secondSection;
 
 
-import org.wl.secondSection.sortTemplate.Example;
+import org.wl.DataStructureAlgorithm.secondSection.sortTemplate.Example;
 
 /*
 选择排序：

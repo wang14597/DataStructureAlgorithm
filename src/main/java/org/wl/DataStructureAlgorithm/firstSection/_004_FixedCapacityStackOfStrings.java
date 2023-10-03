@@ -1,22 +1,22 @@
-package org.wl.firstSection;
+package org.wl.DataStructureAlgorithm.firstSection;
 
 /*
-泛型定容栈
+定容栈
 */
-public class _005_FixedCapacityStack<Item> {
+public class _004_FixedCapacityStackOfStrings {
 
-    private final Item[] a; // stack entries
+    private final String[] a; // stack entries
     private int N = 0; // size
 
-    public _005_FixedCapacityStack(int cap) {
-        a = (Item[]) new Object[cap];
+    public _004_FixedCapacityStackOfStrings(int cap) {
+        a = new String[cap];
     }
 
-    public void push(Item item) {
+    public void push(String item) {
         a[N++] = item;
     }
 
-    public Item pop() {
+    public String pop() {
         return a[--N];
     }
 
@@ -29,9 +29,10 @@ public class _005_FixedCapacityStack<Item> {
     }
 
     public static void main(String[] args) {
-        _005_FixedCapacityStack<Integer> s = new _005_FixedCapacityStack<>(10);
-        s.push(1);
-        s.push(2);
+        _004_FixedCapacityStackOfStrings s;
+        s = new _004_FixedCapacityStackOfStrings(10);
+        s.push("w");
+        s.push("l");
         System.out.println(s.size());
         System.out.println(s.pop());
         System.out.println(s.pop());

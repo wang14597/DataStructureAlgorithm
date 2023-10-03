@@ -1,6 +1,6 @@
-package org.wl.z_fourthSection;
+package org.wl.DataStructureAlgorithm.z_fourthSection;
 
-import org.wl.firstSection._007_Stack;
+import org.wl.DataStructureAlgorithm.firstSection._007_Stack;
 
 public class _019_DepthFirstPaths {
     private boolean[] marked;

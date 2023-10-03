@@ -1,4 +1,4 @@
-package org.wl.secondSection.sortTemplate;
+package org.wl.DataStructureAlgorithm.secondSection.sortTemplate;
 
 /*排序模版*/
 public class Example {

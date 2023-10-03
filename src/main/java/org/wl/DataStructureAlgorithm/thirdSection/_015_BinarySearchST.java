@@ -1,6 +1,4 @@
-package org.wl.thirdSection;
-
-import org.wl.firstSection._008_Queue;
+package org.wl.DataStructureAlgorithm.thirdSection;
 
 /*二分查找符号表（基于有序数组）*/
 public class _015_BinarySearchST<Key extends Comparable<Key>, Value> {

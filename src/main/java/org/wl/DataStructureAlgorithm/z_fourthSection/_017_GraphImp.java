@@ -1,6 +1,6 @@
-package org.wl.z_fourthSection;
+package org.wl.DataStructureAlgorithm.z_fourthSection;
 
-import org.wl.firstSection._009_Bag;
+import org.wl.DataStructureAlgorithm.firstSection._009_Bag;
 
 public class _017_GraphImp implements Graph {
 

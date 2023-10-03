@@ -1,4 +1,4 @@
-package org.wl.firstSection;
+package org.wl.DataStructureAlgorithm.firstSection;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
-package org.wl.thirdSection;
+package org.wl.DataStructureAlgorithm.thirdSection;
 
-import org.wl.firstSection._008_Queue;
+import org.wl.DataStructureAlgorithm.firstSection._008_Queue;
 
 /*基于二叉查找树的符号表*/
 public class _016_BST<Key extends Comparable<Key>, Value> {

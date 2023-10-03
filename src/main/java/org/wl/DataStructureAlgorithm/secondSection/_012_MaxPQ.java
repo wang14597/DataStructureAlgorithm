@@ -1,4 +1,4 @@
-package org.wl.secondSection;
+package org.wl.DataStructureAlgorithm.secondSection;
 
 /*
  * 优先队列

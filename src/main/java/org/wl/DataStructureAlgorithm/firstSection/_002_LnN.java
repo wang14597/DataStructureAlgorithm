@@ -1,4 +1,4 @@
-package org.wl.firstSection;
+package org.wl.DataStructureAlgorithm.firstSection;
 /*
 * 编写一个递归的静态方法计算 ln(N!) 的值
 */

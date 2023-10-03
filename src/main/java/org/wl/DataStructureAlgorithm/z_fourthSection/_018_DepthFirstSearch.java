@@ -1,4 +1,4 @@
-package org.wl.z_fourthSection;
+package org.wl.DataStructureAlgorithm.z_fourthSection;
 
 /*
 搜索连通图的经典递归算法(遍历所有的顶点和边)。

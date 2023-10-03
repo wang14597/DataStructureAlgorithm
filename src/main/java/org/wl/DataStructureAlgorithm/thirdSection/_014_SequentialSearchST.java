@@ -1,4 +1,4 @@
-package org.wl.thirdSection;
+package org.wl.DataStructureAlgorithm.thirdSection;
 
 import java.util.Iterator;
 
