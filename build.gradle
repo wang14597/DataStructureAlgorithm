@@ -6,6 +6,9 @@ group 'org.wl'
 version '1.0-SNAPSHOT'
 
 repositories {
+    maven {
+        url 'https://mirrors.tuna.tsinghua.edu.cn/apache-maven/maven2/'
+    }
     mavenCentral()
 }
 
